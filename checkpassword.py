@@ -41,4 +41,5 @@ def check_password(hashed_pw_prefix, hashed_pw_suffix, password):
         )
 
 
-print(hash_password(password_list))
+if __name__ == "__main__":
+    hash_password(password_list)
