@@ -42,4 +42,4 @@ def check_password(hashed_pw_prefix, hashed_pw_suffix, password):
 
 
 if __name__ == "__main__":
-    hash_password(password_list)
+    sys.exit(hash_password(password_list))
